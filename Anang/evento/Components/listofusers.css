@@ -1,0 +1,32 @@
+body
+{
+    counter-reset: Count-Value;     
+}
+table
+{
+    border-collapse: separate;
+}
+tr td:first-child:before
+{
+  counter-increment: Count-Value;   
+  content:  counter(Count-Value);
+}
+/* table, th, td {
+  border: 1px solid rgb(64, 47, 136);
+  border-collapse: collapse;
+} */
+table, th , td  {
+  border: 2px solid lightgrey;
+  border-collapse: collapse;
+  padding:5px;
+}
+
+table, tr, th {
+  background-color: #bcb9cf;
+}
+table tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+table tr:nth-child(even) {
+  background-color: #ffffff;
+}

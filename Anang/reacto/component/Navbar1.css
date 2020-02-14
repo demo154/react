@@ -1,0 +1,13 @@
+.menu1 ul li {
+	 list-style: none;
+	font-size:18px;
+	padding:25px;
+	line-height:1.7px;
+	text-align:center;
+	 position: relative; 
+	float: left; 
+	width: 27.6rem; 
+  background-color:grey;
+ 
+  
+}

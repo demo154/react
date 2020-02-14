@@ -1,0 +1,21 @@
+.cards {
+    height: 700px;
+    width: 650px;
+    margin-left: 30rem;
+}
+
+.cards-body{
+    border: 5px solid black;
+    margin: 5px;
+    padding: 15px;
+    background: white;
+    font-size: 13px;
+   
+}
+.cards-header{
+
+    border: 5px solid black;
+    margin: 5px;
+    height: 5rem;
+    
+}

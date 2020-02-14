@@ -1,0 +1,21 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  
+  }
+  .react-grid-Cell {
+    
+  
+    background-color: transparent !important;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-right: none !important;
+    border-bottom: none !important;
+  }
+  .react-grid-Row.react-grid-Row--odd {
+    background: #eee!important
+    }
+     
+    .react-grid-Row.react-grid-Row--even{
+    background:#f7f7f7!important
+    }
