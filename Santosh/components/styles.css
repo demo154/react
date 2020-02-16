@@ -1,0 +1,26 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  /* .btn{
+   margin-Left: "10px";
+  }
+   */
+  .react-grid-Toolbar {
+    text-align: end;
+}
+
+/* grouping styles*/
+.tools{
+  width:100%;
+}
+.tools .react-grid-Toolbar {
+  float:left;
+  display:inline-block;
+  border-style:none;
+}
+.UseEffect{
+  font-family: sans-serif;
+    text-align: center;
+}
+
